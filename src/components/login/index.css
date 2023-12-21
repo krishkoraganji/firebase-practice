@@ -1,0 +1,51 @@
+.main-div{
+    height: 100vh;
+    position: relative;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media (200px < width < 500px) {
+    .main-div{
+        background-color: blue;
+    }
+}
+form{
+    height: 50vh;
+    background-color: brown;
+    padding: 25px;
+    width: clamp(150px,70%,550px);
+    height: clamp(150px,40%,550px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+img{
+    align-self: center;
+    margin-bottom: 15px;
+    width: clamp(150px,1%,250px);
+    height: clamp(30px,1%,50px);
+}
+.inputs{
+    color: aliceblue;
+    margin-bottom: 10px;
+    height: 25%;
+    display: flex;
+    width:100%;
+    flex-direction: column;
+
+
+}
+label{
+    font-size: 18px;
+    font-family: roboto;
+    margin-bottom: 3px;
+}
+input{
+    height: clamp(100px,20%,450px);   
+    width: clamp(100px,80%,450px);  
+}

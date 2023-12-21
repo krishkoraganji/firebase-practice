@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.linkform{
+  background-color: aquamarine;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  border: 2px solid black;
+  margin:5px;
+  padding:5px;
+  position:relative;
+  left:240px;
+
+}
+
+div{
+ 
+ width:550px;
+ align-items: center;
+padding:1px;
+}
+form{
+  display: inline-block;
+  background-color: bisque;
+  height:350px;
+  width: 500px;
+  border:2px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px black;
+  position:relative;
+left: 240px;
+  
+}
+label{
+  display:inline-block;
+
+  padding:10px;
+  margin-right: 20px;
+  align-items: center;
+  width:150px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ flex-direction: column-reverse;
+}
+button{
+ 
+  border:1px solid black;
+  margin-top:50px;
+  margin-left:120px;
+  
+}
+h2{
+  text-align: center;
+  position: relative;
+  left:250px;
+}
+.button1{
+padding:2px;
+margin:2px;
+}
+.dashboard{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+ text-align-last: center;
+
+}
+h5{
+  text-align: center;
+  color:darkgreen;
+}
+.gnpage{
+position:relative;
+right:30px;
+padding:10px;
+
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.otpinput{
+  margin:8px;
+  height:35px;
+  width:65px;
+  border:none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1rem;
+  color:black;
+  font-size: large;
+  text-shadow: 2px 2px 2px black;
+  border:2px solid black;
+}
+*{
+  box-sizing: content-box;
+}

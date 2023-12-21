@@ -1,0 +1,18 @@
+.home-div{
+    height: 100vh;
+    background-color: aqua;
+    top: 10px;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+.about-div{
+    height: 100vh;
+    background-color: aquamarine;
+}
+.carrers-div{
+    height: 100vh;
+    background-color: blue;
+}
